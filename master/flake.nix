@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-capnp-master.flake = false;
+  inputs.src-capnp-master.ref   = "refs/heads/master";
   inputs.src-capnp-master.owner = "zielmicha";
-  inputs.src-capnp-master.ref   = "master";
   inputs.src-capnp-master.repo  = "capnp.nim";
   inputs.src-capnp-master.type  = "github";
   
