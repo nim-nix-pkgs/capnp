@@ -1,22 +1,52 @@
 {
   "nodes": {
-    "collections": {
+    "capnp-master": {
       "inputs": {
+        "collections": "collections",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "nixpkgs"
         ],
+        "src-capnp-master": "src-capnp-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556687,
+        "narHash": "sha256-vdHCBJc6qfAQcyL7ksk62SW6sYXVlwB3aJOkh7Sl01M=",
+        "owner": "nim-nix-pkgs",
+        "repo": "capnp",
+        "rev": "cc027f172861ddeb2d8b53f14a22a7f6fab8c023",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "capnp",
+        "type": "github"
+      }
+    },
+    "collections": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "capnp-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "capnp-master",
+          "nixpkgs"
+        ],
         "src-collections-v0_5_2": "src-collections-v0_5_2"
       },
       "locked": {
         "dir": "v0_5_2",
-        "lastModified": 1651917795,
-        "narHash": "sha256-4ot/6KREYHvJ7LtJTuBDI+cv1nxDXYMQSA1/ImV534A=",
+        "lastModified": 1651555320,
+        "narHash": "sha256-vIFtyVsJlncs/xC7F6DrubWI9dq8k52Q0+0AmrinbmI=",
         "owner": "nim-nix-pkgs",
         "repo": "collections",
-        "rev": "006d1748cca56acc1604341b92d73e8e1f9c572a",
+        "rev": "b8caf3d43671e4bb6bdccf2db68d8ec771da32fe",
         "type": "github"
       },
       "original": {
@@ -61,10 +91,9 @@
     },
     "root": {
       "inputs": {
-        "collections": "collections",
+        "capnp-master": "capnp-master",
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "src-capnp-master": "src-capnp-master"
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-capnp-master": {
