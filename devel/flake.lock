@@ -65,22 +65,22 @@
         "collections": "collections",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-capnp-master": "src-capnp-master"
+        "src-capnp-devel": "src-capnp-devel"
       }
     },
-    "src-capnp-master": {
+    "src-capnp-devel": {
       "flake": false,
       "locked": {
-        "lastModified": 1609866066,
-        "narHash": "sha256-Tp/wgu92i4S45htcIowQaWlDQmzQCUYREFDUwqk0Qqw=",
+        "lastModified": 1515847780,
+        "narHash": "sha256-CH47Vd0KGJzkhsRzGJ6ah5CTsyW2pGJLZERZcMgLdHk=",
         "owner": "zielmicha",
         "repo": "capnp.nim",
-        "rev": "fa69fd7db70e14f8f4bbe364adc8e37195dd93b4",
+        "rev": "50a50dc0ea35bf1d6c58f29ef1d016bdb0953459",
         "type": "github"
       },
       "original": {
         "owner": "zielmicha",
-        "ref": "refs/heads/master",
+        "ref": "refs/heads/devel",
         "repo": "capnp.nim",
         "type": "github"
       }
